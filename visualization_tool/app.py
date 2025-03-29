@@ -5,7 +5,7 @@ import pandas as pd
 import base64
 import io
 
-# Initialize Dash app
+# Initialize Dash application
 app = dash.Dash(__name__, suppress_callback_exceptions=True)
 
 app.layout = html.Div([
